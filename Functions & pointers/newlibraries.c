@@ -6,6 +6,7 @@ int main ()
     printf("Enter a number :");
     scanf("%d",&a);
     int root= sqrt(a);
-    printf("%d",root);
+    int power= pow(a,a);
+    printf("%d\n%d",root,power);
     return 0;
 }
