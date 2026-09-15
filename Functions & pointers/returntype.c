@@ -9,3 +9,6 @@ int main(){
     printf("2.");
     scanf("%d",&b);
     int sum = add(a,b);
+    printf("%d",sum);
+    return 0;
+}
