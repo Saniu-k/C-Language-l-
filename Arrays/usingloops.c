@@ -2,7 +2,8 @@
 int main (){
     int a[4]={2,4,6,3};
     for(int i=0;i<=4;i++){
-     scanf("%d",a[i]);
+     printf("Enter the %d number\n",i);   
+     scanf("%d",&a[i]);
     }
     printf("%d",a[3]);
     return 0;
